@@ -1,0 +1,7 @@
+C:\Users\valdb\source\repos\abstr\abstr\bin\Debug\abstr.exe.config
+C:\Users\valdb\source\repos\abstr\abstr\bin\Debug\abstr.exe
+C:\Users\valdb\source\repos\abstr\abstr\bin\Debug\abstr.pdb
+C:\Users\valdb\source\repos\abstr\abstr\obj\Debug\abstr.csproj.AssemblyReference.cache
+C:\Users\valdb\source\repos\abstr\abstr\obj\Debug\abstr.csproj.CoreCompileInputs.cache
+C:\Users\valdb\source\repos\abstr\abstr\obj\Debug\abstr.exe
+C:\Users\valdb\source\repos\abstr\abstr\obj\Debug\abstr.pdb
