@@ -4,72 +4,27 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace abstr
+
+class Program
 {
-
-    abstract class Person
+    static void Main(string[] args)
     {
-        public abstract void Age();
+        Teacher teacher = new Teacher();
+        teacher.Age = 30;
+        teacher.Name = "Ольга";
+        teacher.Lesson = "Физика";
 
-        public virtual void Name() 
-        {
-        }
+        Student student = new Student();
+        student.Age = 18;
+        student.Name = "Иван";
+        student.Course = 1;
+
+        ZavKaf zavkaf = new ZavKaf();
+        zavkaf.Age = 18;
+        zavkaf.Name = "Иван";
+        zavkaf.Kaf = "Экономики";
     }
-
-    class Student : Person
-    {
-        public override void Age()
-        {
-            Console.WriteLine("18");
-        }
-
-        public override void Name()
-        {
-            base.Name();
-        }
-    }
-
-    class Teacher : Person
-    {
-        public override void Age()
-        {
-            Console.WriteLine("25+ Лет");
-        }
-
-        public void Lesson()
-        {
-            Console.WriteLine("Предмет - ");
-        }
-    }
-
-    class ZavKaf : Person
-    {
-        public override void Age()
-        {
-            Console.WriteLine("30+ Лет");
-        }
-
-        public void Kafedra()
-        {
-            Console.WriteLine("Кафедра - ");
-        }
-    }
-
-
-
-
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Teacher teacher = new Teacher();
-            Student student = new Student();
-            ZavKaf zavKaf = new ZavKaf();
-
-            teacher.Lesson();
-            student.Name();
-            student.Age();
-        }
-    }
-
 }
+
+
+
